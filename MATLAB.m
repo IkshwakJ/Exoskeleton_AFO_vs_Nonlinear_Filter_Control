@@ -6,7 +6,7 @@ close all
 clc
 
 % Create Simulation data
-load('ME655_Lect09_VL3_Data.mat')
+load('Data.mat')
 LH_hip_traj = timeseries([Lhip_pos Lhip_vel Lhip_acc Rhip_pos Rhip_vel Rhip_acc],t);
 
 % initial conditions for human controller
